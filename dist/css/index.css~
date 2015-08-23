@@ -10,21 +10,21 @@ body {
 	margin-bottom: 20%;
 }
 #sign-up{
-	padding-top:20%;
+	padding-top:10%;
 	background-color:#ffffff;
-	margin-bottom:20%;
+	padding-bottom:10%;
 	
 
 }
 #happy{
 font-size: 0px; line-height:0; width:0;
-border-top: 50px solid transparent;
+border-top: 70px solid transparent;
 border-left: 100vw solid #ffffff;
 
 }
 #unhappy{
 font-size: 0px; line-height:0; width:0;
-border-bottom: 50px solid transparent;
+border-bottom:70px solid transparent;
 border-left: 100vw solid #ffffff;
 
 }
