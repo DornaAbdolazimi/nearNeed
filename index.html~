@@ -29,7 +29,7 @@
 					<div class="checkbox">
 						<label><input type="checkbox"> Remember me</label>
 					</div>
-					<div class="col-sm-offset-2 col-sm-8"><button type="submit" class="btn btn-primary btn-block">Submit</button></div>
+					<div class="col-sm-offset-2 col-sm-8"><button type="submit" class="btn btn-block" id = "submitButton"><span style="color:white">Submit</span></button></div>
 				</form>
 			</div>
 			</div>
@@ -64,7 +64,7 @@
 								<input type="password" class="form-control" id="reg_pwd_confirm" placeholder="Confirm your password">
 							</div>
 						</div>
-						<div class="col-sm-offset-2 col-sm-8"><button type="submit" class="btn btn-block">Submit</button></div>
+						<div class="col-sm-offset-2 col-sm-8"><button type="submit" class="btn btn-block" id= "submitButton"><span style="color:white;">Submit</span></button></div>
 					</form>
 				</div>
 			</div>
