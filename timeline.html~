@@ -70,7 +70,7 @@
 								</div>	
 								
 								<div class="col-xs-2 col-sm-1 upPanel" width="10%">
-									<img src="dist/img/mePic.jpg" alt="can not load pic"  id="myImage" >
+									<img src="dist/img/mePic.jpg" alt="can not load pic" id="picture" id="myImage" >
 								</div>
 										
 								
