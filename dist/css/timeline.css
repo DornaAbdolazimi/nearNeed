@@ -1,0 +1,40 @@
+div{
+	border: 1px solid black;
+	height: 20px;
+}
+
+body{
+   background-image: url('background.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+	direction: rtl;
+}
+
+#problemPlace{
+	resize: none;
+	margin:0px;
+	width: 100%;
+	word-break: break-word;
+}
+
+#submitButton{
+	background-color: #F65A5B;
+	width: 97%;
+	border-radius: 5px;
+	height: 95%;
+	border: 0px;
+}
+
+#myImage{
+	width: 99%;
+	height: 95%;
+	z-index: 100;
+}
+
+.upPanel{
+	margin-top: 2%;
+	padding: 0px;
+	height: 70px;
+}
