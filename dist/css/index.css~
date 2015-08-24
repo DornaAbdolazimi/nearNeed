@@ -11,8 +11,10 @@ body {
 }
 #sign-up{
 	padding-top:10%;
-	background-color:#ffffff;
+
+	opacity: 0.5;
 	padding-bottom:10%;
+	background-color: #204056;
 	
 
 }
@@ -21,11 +23,18 @@ body {
 	background-color: #204056;
 }
 .navbar{
-	background-color:transparent;
-	border:0px solid transparent;
-	padding-top:10px;
+	background-color:#204056;
+	border:0px solid #ffffff;
+	opacity: 0.5;
+	padding-top:20px;
+	padding-right:100px;
+	padding-left:100px;
+	height: 10vh;
 }
 .navbar-brand{
 	font-size:30px;
-	color:#204056;
 }
+#extra{
+	padding-top: 100px;
+}
+
