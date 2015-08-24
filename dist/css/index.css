@@ -20,3 +20,12 @@ body {
 #submitButton{
 	background-color: #204056;
 }
+.navbar{
+	background-color:transparent;
+	border:0px solid transparent;
+	padding-top:10px;
+}
+.navbar-brand{
+	font-size:30px;
+	color: red;
+}
