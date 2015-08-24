@@ -16,17 +16,7 @@ body {
 	
 
 }
-#happy{
-font-size: 0px; line-height:0; width:0;
-border-top: 70px solid transparent;
-border-left: 100vw solid #ffffff;
-}
-#unhappy{
-font-size: 0px; line-height:0; width:0;
-border-bottom:70px solid transparent;
-border-left: 100vw solid #ffffff;
 
-}
 #submitButton{
 	background-color: #204056;
 }
