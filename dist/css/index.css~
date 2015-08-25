@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url(dist/font/irsans.ttf) format("truetype");
+}
+html *
+{
+   font-family: "My Custom Font";
+}
+
 body {
    background-image: url('background.png');
    background-position: center center;
@@ -8,14 +17,16 @@ body {
 #login{
 	margin-top: 20%;
 	margin-bottom: 10%;
+	height:100vh;
+}
+#about-us{
+	height:100vh;
 }
 #sign-up{
 	padding-top:10%;
-
-	opacity: 0.5;
 	padding-bottom:10%;
 	background-color: #204056;
-	
+	height:100vh;	
 
 }
 
@@ -26,15 +37,16 @@ body {
 	background-color:#204056;
 	border:0px solid #ffffff;
 	opacity: 0.5;
-	padding-top:20px;
-	padding-right:100px;
-	padding-left:100px;
-	height: 10vh;
+	padding-top:5vh;
+	padding-right:10vw;
+	padding-left:10vw;
+	height: 15vh;
+}
+#myNavbar{
+	background-color:red;
 }
 .navbar-brand{
 	font-size:30px;
 }
-#extra{
-	padding-top: 100px;
-}
+
 
