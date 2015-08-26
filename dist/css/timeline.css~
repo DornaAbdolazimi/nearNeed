@@ -1,6 +1,160 @@
+#rightPanelOut{
+	border-radius: 5px;
+	height: wrap-content;
+	width: 100%;
+	border: 0px solid gray;
+	padding: 0px;
+	margin-top: 30px;
+}
+
+#rightPanelUp{
+	background-color: white;
+	width: 100%;
+	height: wrap-content;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.peoplePic{
+	width: 80%;
+}
+
+.nameRequest{
+	margin: 0px;
+}
+
+.dateRequest{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: :0px;
+	margin-top: 5px;
+	color: #7A7A7A;
+}
+
+#rightPanelMid{
+	width: 100%;
+	height: wrap-content;
+	padding: 10px;
+	background-color: white;
+}
+
+#line3{
+	width: 100%;
+	background-color: #B3B3B3;
+	height: 1px;
+	padding: 0px;
+}
+
+
+#rightPanelDown{
+	background-color: white;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#acceptRequest{
+	padding: 0px;
+}
+
+#acceptButtonRequest{
+
+}
+
+#rejectRequest{
+	padding: 0px;
+}
+
+#rejectButtonRequest{
+
+}
+
+#showAnswersRequest{
+	padding: 0px;
+}
+
+#showAllAnswersDivRequest{
+	padding: 0px;
+}
+
+.grey{
+	color: #696969;
+}
+
+.grey:hover{
+	color: #808080;
+}
+
+#upPanelOut{
+	margin-top: 20px;
+	border-radius: 5px;
+	height: wrap-content;
+	width: 100%;
+	border: 0px solid gray;
+	padding: 0px;
+}
+
+#upPanelUp{
+	background-color: white;
+	width: 100%;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+
+#upPanelMid{
+	width: 100%;
+	height: 40px;
+	padding: 0px;
+}
+
+#line1{
+	width: 100%;
+	border: 1px;
+	height: 1px;
+	padding: 0px;
+}
+
+#problemPlace{
+	border: 0px;
+	resize: none;
+	margin:0px;
+	padding: 5px;
+	width: 100%;
+	word-break: break-word;
+}
+
+#line2{
+	width: 100%;
+	border: 1px;
+	height: 1px;
+	padding: 0px;
+}
+
+#upPanelDown{
+	background-color: white;
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+}
+
+#subbmitB{
+	background-color: #067194;
+	border-radius: 1px;
+	box-shadow: 1px 1px 1px #888888;
+	width: 100%;
+	height: 100%;
+}
+
 div{
 	<!--border: 1px solid black;-->
 	<!--height: 20px;-->
+	padding: 0px;
 }
 
 body{
@@ -10,61 +164,4 @@ body{
    background-attachment: fixed;
    background-size: cover;
 	direction: rtl;
-}
-
-.leftPanel{
-	margin-top: -10px;
-	
-}
-
-.leftPanelOutside{
-	margin-top: 25px;
-	padding: 10px;
-	opacity: 0.95;
-	background-color: #EEEEEE;
-	border-radius: 5px;
- 	border: 0px solid black;
-}
-
-.leftPanelWithContent{
-}
-
-#noRequestFromYouPanel{
-	background-color: #DDDDDD;
-	opacity: 0.8;
-	
-}
-
-#picture{
-	border-radius: 5px;
-	border: 1px solid #F65A5B;
-	width: 100%;
-	height: 100%;
-}
-
-#problemPlace{
-	resize: none;
-	margin:0px;
-	width: 100%;
-	word-break: break-word;
-}
-
-#submitButton{
-	background-color: #F65A5B;
-	width: 97%;
-	border-radius: 5px;
-	height: 95%;
-	border: 0px;
-}
-
-#myImage{
-	width: 99%;
-	height: 95%;
-	z-index: 100;
-}
-
-.upPanel{
-	margin-top: 25px;
-	padding: 0px;
-	height: 70px;
 }
