@@ -8,9 +8,10 @@
 		<link href="font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
 		<link type="text/css" href="dist/css/timeline.css" rel="stylesheet">
 		
-		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="jquery-1.11.3.min.js"></script>
 		<script src="dist/js/timeline.js"></script>
-		<script src="js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
@@ -25,12 +26,13 @@
 						</div>
 						<div class="col-xs-12" id="upPanelMid">
 						<div id="line1"></div>
-						<div>
+						<div style="background-color:white;">
 							<textarea id="problemPlace" rows="4" placeholder="مشکل خود را وارد کنید" ></textarea>						
 						</div>
-						<div id="line2"></div>
+	
 						</div>
 						<div class="col-xs-12" id="upPanelDown">
+						<div id="line2"></div>
 							<div class="col-xs-2" style="padding:0px">
 								<center><a href="#" style="color:white">
 									<div id="subbmitB">ثبت مشکل</div>								
@@ -45,7 +47,10 @@
 					<!-- start of right panel -->
 					<div class="col-xs-12" id="rightPanelOut">
 						<div class="col-xs-12" id="rightPanelUp">
-							<div class="col-xs-11">
+							<div class="col-xs-2" id="price">
+								<span class="label label-default">price: 1000T</span>
+							</div>
+							<div class="col-xs-9">
 							<h3 class="nameRequest">
 								sina sadeghi							
 							</h3>
@@ -53,7 +58,7 @@
 								yesterday at 5:30			
 							</h6>
 							</div>
-							<div class="col-xs-1" style="padding:0px;">
+							<div class="col-xs-1" style="padding:0px; padding-right:10px">
 								<img src="dist/img/mePic.jpg" alt="can not show" class="peoplePic">
 							</div>
 						</div>
@@ -65,7 +70,7 @@
 						<div class="col-xs-12" id="rightPanelDown">
 							<div id="line3"></div>	
 							<div class="col-xs-1" id="showAnswersRequest">
-								<a class="grey" href="#"><div id="showAllAnswersDivRequest">
+								<a class="grey" href="#" data-toggle="collapse" data-target="#peopleInfo"><div id="showAllAnswersDivRequest">
 									<span class="glyphicon glyphicon-chevron-down"></span> show
 								</div></a>
 							</div>
@@ -80,9 +85,50 @@
 									<span class="glyphicon glyphicon-minus"></span>		reject						
 								</div></a>							
 							</div>
+							
+							<div class="col-xs-12 collapse well" id="peopleInfo" style="margin:0px;">
+							<ul style="margin:0px;">
+							<li>محمد پیشنهاد داد</li>
+							<li> حسین پیشنهاد داد </li>
+							</ul>							
+							</div></div>
 						</div>
 					</div>
 					<!-- end of right panel -->
+					
+					<!-- left panel -->
+					 <div class="col-xs-12 col-sm-4 col-sm-pull-8">
+					 	<div class="col-xs-12" id="leftPanelOut">
+					 		<div class="col-xs-12" id="leftPanelUp">
+					 			do my homeWork plz
+					 			
+					 		</div>
+					 		
+					 		<div class="col-xs-12" id="leftPanelMid">
+					 			ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+					 			
+					 		fd
+					 		<div id="line4"></div>
+					 		<div class="answersToMe">
+					 		<div class="col-xs-2 checkForGood"> <span class="label label-default">start chat</span> </div>
+					 		<div class="col-xs-9 answersFromPeople" >alim responded</div>
+					 		<div class="col-xs-1 respondPicPanel"><img src="dist/img/mePic.jpg" alt="no pic" class="respondPic"></div>
+					 		</div>
+					 		<div class="answersToMe">
+					 		<div class="col-xs-2 checkForGood"> <span class="label label-default">start chat</span> </div>
+					 		<div class="col-xs-9 answersFromPeople" >alim responded</div>
+					 		<div class="col-xs-1 respondPicPanel"><img src="dist/img/mePic.jpg" alt="no pic" class="respondPic"></div>
+					 		</div>
+					 		</div>
+					 		
+					 		<div class="col-xs-12" id="leftPanelDown">
+					 			
+					 		</div>
+					 	</div>
+					 </div>
+					
+					<!-- end of left panel -->
+				
 				</div>
 				</div>
 		
