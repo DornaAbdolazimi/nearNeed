@@ -1,7 +1,14 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url(dist/font/irsans.ttf) format("truetype");
+}
+html *
+{
+   font-family: "My Custom Font";
+}
 #head-container{
 	background-image: url('background.png');
 }
-
 .navbar{
 	color: yellow;
 	background-color: #204056; 
@@ -11,33 +18,15 @@
 	padding-right:100px;
 	opacity: 0.4;
 }
-/*#profile-pic{
-	background-image: url('mePic.jpg');
-}*/
-
-/*.banner{
+.circle{
+	border-radius: 110px;
+	width: 200px;
+	height: 200px; 
+	top: 320px; 
+	left: 150px;
+/*	background-color: white;*/
 	background-image: url('background.png');
-	background-position: top center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin-top: 90px;
-    padding-right: 100px;
-    padding-left: 100px;
+	border: #204056 4px solid; 
+	z-index: 1;
+	position: fixed;
 }
-.navbar{
-	color: yellow;
-	background-color: #000000; 
-	border:0px solid #ffffff;
-	padding-top:20px;
-	padding-left:100px;
-	padding-right:100px;
-	
-}
-.navbar-brand{
-	font-size: 40px;
-}
-.navbar-nav>li>a{
-	color: red;/*#fd205e;*/
-	background-color: green;
-}*/
