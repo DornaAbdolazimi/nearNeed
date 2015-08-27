@@ -1,7 +1,11 @@
 var a=10;
 $(document).ready(function(){
+	
 $(".navbar-brand").css({"font-size": "30px"});
-$(".navbar").css({"background-color": "#204056"});  
+$(".navbar-brand").css({"color": "#ffffff"});
+$("#header1").css({"color": "#ffffff"});
+$("#header2").css({"color": "#ffffff"});
+$(".nav-button").css({"background-color": "#87B8B4"});
 $("#header1").click(function(){ $("#vorood").attr("class","tab-pane fade in active")});
 $("#header1").click(function(){ $("#first-tab").attr("class","active")});
 $("#header1").click(function(){ $("#second-tab").attr("class","hi")});
@@ -13,8 +17,15 @@ $("#header2").click(function(){ $("#vorood").attr("class","tab-pane fade")});
 $("#theme1").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
 $("#theme2").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
 $("#theme3").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
-$("#theme1").click(function(){$(".navbar").css({"background-color": "black"});});
-$("#theme2").click(function(){$(".navbar").css({"background-color": "#204056"});});
+$("#theme4").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
+$("#theme5").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
+$("#theme1").click(function(){$(".nav-button").css({"background-color": "#87B8B4"});});
+$("#theme2").click(function(){$(".nav-button").css({"background-color": "#4CA1D8"});});
+$("#theme3").click(function(){$(".nav-button").css({"background-color": "#FFB745"});});
+$("#theme4").click(function(){$(".nav-button").css({"background-color": "#806BAE"});});
+$("#theme5").click(function(){$(".nav-button").css({"background-color": "#E3695C"});});
+
+
 $(document).scroll(function(){
 
 var target = $("#pwd").position().top;

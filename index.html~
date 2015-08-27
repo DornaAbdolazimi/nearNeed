@@ -7,7 +7,6 @@
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="dist/css/index.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="jquery-1.11.3.min.js"></script>
 	<script src="dist/js/index.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -28,8 +27,8 @@
 		<div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav  navbar-right">
-          <li id="header1"><a href="#section2"> ورود<span style="margin-right:10px;"  class="glyphicon glyphicon-log-in"></span></a></li>
-          <li><a id="header2" href="#section2">ثبت‌نام<span style="margin-right:10px;" class="glyphicon glyphicon-user"></a></li>
+          <li ><a id="header1" href="#section2"> ورود<span style="margin-right:10px;"  class="glyphicon glyphicon-log-in"></span></a></li>
+          <li class="nav-button" style="background-color:red;     border-radius: 10px"><a id="header2" href="#section2">ثبت‌نام<span style="margin-right:10px;" class="glyphicon glyphicon-user"></a></li>
         </ul>
       </div>
     </div>
@@ -38,19 +37,32 @@
 </nav>
 		
 
-<div style="width:40px; height:30vh;">
-<div  style="width:1vw; height:18vh;"></div>
-<div id="theme1" style="width:1vw; height:4vh; background-color:black;"></div>
-<div  id ="theme2" style="width:1vw; height:4vh; background-color:blue;"></div>
-<div  id="theme3" style="width:1vw; height:4vh; background-color:green;"></div>
+<div style="width:40px; height:35vh;">
+<div  style="width:1vw; height:15vh;"></div>
+
+<div id="theme1" style="width:1vw; height:4vh; background-color:#87B8B4;"></div>
+<div  id ="theme2" style="width:1vw; height:4vh; background-color:#4CA1D8;"></div>
+<div  id="theme3" style="width:1vw; height:4vh; background-color:#FFB745;"></div>
+<div  id="theme4" style="width:1vw; height:4vh; background-color:#806BAE;"></div>
+<div  id="theme5" style="width:1vw; height:4vh; background-color:#E3695C;"></div>
 
 </div>
-<div  class="container-fluid" id="section1" ></div>
-			
-			
+<div  class="container-fluid" id="section1" >
+<div class="col-sm-5">
+</div>
+<div class="col-sm-5">
+<br><br>
+<h2 style="color:#ffffff"><b>اینجا نیازهای ما سریع‌تر و راحت‌تر رفع می‌شود.</b></h2>
+<br>
+<h4 style="color:#ffffff">  ما توانایی هایمان را با هم به اشتراک میگذاریم و کتاب ها و اشیاء مورد نیازمان را از افرادی که دیگر به آن‌ها نیازی ندارند به قیمت‌های مناسب تهیه میکنیم. هر وقت به دنبال راه سریع و بهینه‌ای برای حل مشکل خود هستیم اینجا ما روی هم حساب میکنیم..  
+‌</h4>
+<br>
+ <button type="button" class="btn btn-primary btn-lg nav-button">ثبت نام</button>
 
 
 </div>
+</div>
+
 <div  class="container-fluid" id="section2" >
 	<div class="col-sm-offset-2 col-sm-8" style="padding-bottom:30px; border-bottom:1px solid #D0D0D0;">
 		<ul class="nav nav-tabs">
@@ -80,7 +92,7 @@
 							<div class="checkbox">
 								<label><input type="checkbox">    <span style="padding-right:22px">به خاطر بسپار <span>    </label>
 							</div>
-							<button type="submit" class="btn btn-block submitButton"><span style="color:white">وارد شو</span></button>
+							<button type="submit" class="btn btn-block nav-button"><span style="color:white">وارد شو</span></button>
 						</form>
 					</div>
 				</div>
@@ -113,7 +125,7 @@
 									<input type="password" class="form-control" id="reg_pwd_confirm" placeholder="پسورد را مجددا وارد کن">
 								</div>
 							</div>
-								<button type="submit" class="btn btn-block submitButton"><span style="color:white">ثبت کن</span></button>
+								<button type="submit" class="btn btn-block nav-button"><span style="color:white">ثبت کن</span></button>
 						</form>
 					</div>			
 		    </div>

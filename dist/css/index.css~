@@ -32,7 +32,7 @@ body {
 }
 .navbar{
 
-	opacity: 0.5;
+	opacity: 0.4;
 	padding-top:5vh;
 	padding-right:10vw;
 	padding-left:10vw;
