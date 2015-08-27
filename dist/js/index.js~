@@ -14,6 +14,7 @@ $("#theme1").hover(function () { $(this).css({"width": "2vw"});}, function () { 
 $("#theme2").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
 $("#theme3").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
 $("#theme1").click(function(){$(".navbar").css({"background-color": "black"});});
+$("#theme2").click(function(){$(".navbar").css({"background-color": "#204056"});});
 $(document).scroll(function(){
 
 var target = $("#pwd").position().top;

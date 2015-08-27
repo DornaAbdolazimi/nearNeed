@@ -36,7 +36,7 @@ var target = $("#pwd").position().top;
     }
     if($(this).scrollTop() <target*3 && a<=0)
     {  
-        $(".navbar").fadeTo(10, 0.5);
+        $(".navbar").fadeTo(10, 0.7);
         
         for(var i=0;i<10;i++){
                 $(".navbar").animate({paddingTop: '+=0.3vh'}, 5); 

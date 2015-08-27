@@ -7,7 +7,6 @@
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="dist/css/index.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="jquery-1.11.3.min.js"></script>
 	<script src="dist/js/index.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -41,7 +40,7 @@
 
 <div style="width:40px; height:30vh;">
 <div  style="width:1vw; height:18vh;"></div>
-<div id="theme1" style="width:1vw; height:4vh; background-color:red;"></div>
+<div id="theme1" style="width:1vw; height:4vh; background-color:black;"></div>
 <div  id ="theme2" style="width:1vw; height:4vh; background-color:blue;"></div>
 <div  id="theme3" style="width:1vw; height:4vh; background-color:green;"></div>
 

@@ -8,45 +8,40 @@ html *
 }
 
 body {
-   background-image: url('background.png');
+   background-image: url('back.jpg');
    background-position: center center;
-   background-repeat: no-repeat;
+  
    background-attachment: fixed;
-   background-size: cover;
+
 }
-#login{
-	margin-top: 20%;
-	margin-bottom: 10%;
-	height:100vh;
+#section1{
+	height:80vh;
 }
 #about-us{
 	height:100vh;
 }
-#sign-up{
-	padding-top:10%;
-	padding-bottom:10%;
-	background-color: #204056;
-	height:100vh;	
+#section2{
+	padding-top:20vh;
+	background-color: #ffffff;
+	height:90vh;	
 
 }
 
-#submitButton{
+.submitButton{
 	background-color: #204056;
 }
 .navbar{
-	background-color:#204056;
-	border:0px solid #ffffff;
+
 	opacity: 0.5;
 	padding-top:5vh;
 	padding-right:10vw;
 	padding-left:10vw;
-	height: 15vh;
-}
-#myNavbar{
-	background-color:red;
+	padding-bottom:5vh;
+
 }
 .navbar-brand{
 	font-size:30px;
 }
+
 
 
