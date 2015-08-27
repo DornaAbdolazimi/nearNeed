@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html dir="rtl">
-	<head lang="fa">
-		<title>Near Need</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8"> 
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link type="text/css" href="dist/css/index.css" rel="stylesheet">
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="jquery-1.11.3.min.js"></script>
-		<script src="dist/js/index.js"></script>
-	</head>
-	<body >
+<head lang="fa">
+	<title>Near Need</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8"> 
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" href="dist/css/index.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="dist/js/index.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body >
 <p></p>
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -20,82 +23,104 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">NEAR NEED</a>
+        </button>
+        <a class="navbar-brand" href="#">NEAR NEED</a>
     </div>
-<div>
+		<div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav  navbar-right">
-         <div> <li><a  href="#section1"> ورود<span style="margin-right:10px;"  class="glyphicon glyphicon-log-in"></span></a></li>
-          <li><a  href="#sign-up">ثبت‌نام<span style="margin-right:10px;" class="glyphicon glyphicon-user"></a></li>
-          <li><a  href="#about-us">درباره‌ی ما<span style="margin-right:10px;" class="glyphicon icon-list-alt"></a></li>
-      </div>  </ul>
+          <li id="header1"><a href="#section2"> ورود<span style="margin-right:10px;"  class="glyphicon glyphicon-log-in"></span></a></li>
+          <li><a id="header2" href="#section2">ثبت‌نام<span style="margin-right:10px;" class="glyphicon glyphicon-user"></a></li>
+        </ul>
       </div>
     </div>
     </div>
   </div>
 </nav>
-	<div  class="container-fluid" id="section1">
+		
 
-		<div class= "col-sm-12">
-			<div class="col-sm-offset-7 col-sm-3" id="login">
-				<form role="form">
-					<div class="form-group">
-						<div>
-							<label for="email" class="sr-only">ایمیل</label>
-							<input type="email" class="form-control" id="email" placeholder="ایمیل را وارد کن">
-						</div>
-					</div>
-					<div class="form-group">
-						<div>
-							<label for="pwd" class="sr-only">پسورد</label>
-							<input type="password" class="form-control" id="pwd" placeholder="پسورد را وارد کن">
-						</div>
-					</div>
-					<div class="checkbox">
-						<label><input type="checkbox">    <span style="padding-right:22px">به خاطر بسپار <span>    </label>
-					</div>
-					<button type="submit" class="btn btn-block" id = "submitButton"><span style="color:white">وارد شو</span></button>
-				</form>
-			</div>
-			</div>
-		</div>
+<div style="width:40px; height:30vh;">
+<div  style="width:1vw; height:18vh;"></div>
+<div id="theme1" style="width:1vw; height:4vh; background-color:red;"></div>
+<div  id ="theme2" style="width:1vw; height:4vh; background-color:blue;"></div>
+<div  id="theme3" style="width:1vw; height:4vh; background-color:green;"></div>
 
-		<div  class="container-fluid" id="sign-up" >
+</div>
+<div  class="container-fluid" id="section1" ></div>
+			
+			
+
+
+</div>
+<div  class="container-fluid" id="section2" >
+	<div class="col-sm-offset-2 col-sm-8" style="padding-bottom:30px; border-bottom:1px solid #D0D0D0;">
+		<ul class="nav nav-tabs">
+   		 <li id="first-tab" class="active"><a href="#vorood" data-toggle="tab">ورود</a></li>
+   		 <li id="second-tab"> <a href="#sabtenam" data-toggle="tab">ثبت‌نام</a></li>
+		</ul>
+		<br>
+		<br>
+		<!--<div style="height:20px; width:60vw; border-top:1px solid #D0D0D0;"></div>-->
+		<div class="tab-content" id="TabContent">
+		    <div class="tab-pane fade in active" id="vorood">
+		       <div class= "col-sm-12">
+					<div class="col-sm-offset-4 col-sm-4">
+						<form role="form">
+							<div class="form-group">
+								<div>
+									<label for="email" class="sr-only">ایمیل</label>
+									<input type="email" class="form-control" id="email" placeholder="ایمیل را وارد کن">
+								</div>
+							</div>
+							<div class="form-group">
+								<div>
+									<label for="pwd" class="sr-only">پسورد</label>
+									<input type="password" class="form-control" id="pwd" placeholder="پسورد را وارد کن">
+								</div>
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox">    <span style="padding-right:22px">به خاطر بسپار <span>    </label>
+							</div>
+							<button type="submit" class="btn btn-block submitButton"><span style="color:white">وارد شو</span></button>
+						</form>
+					</div>
+				</div>
+		    </div>
+		    <div class="tab-pane fade" id="sabtenam">
 				<div class="col-sm-offset-4 col-sm-4">
 					<form role="form">
-						<div class="form-group">
-							<div>
-								<label for="reg_email" class="sr-only">Email:</label>
-								<input type="email" class="form-control" id="reg_email" placeholder="ایمیلت را وارد کن">
+							<div class="form-group">
+								<div>
+									<label for="reg_email" class="sr-only">Email:</label>
+									<input type="email" class="form-control" id="reg_email" placeholder="ایمیلت را وارد کن">
+								</div>
 							</div>
-						</div>
-						<div class="form-group">
-							<div>
-								<label for="reg_name" class="sr-only">Name:</label>
-								<input type="text" class="form-control" id="reg_name" placeholder="یک نام کاربری وارد کن">
+							<div class="form-group">
+								<div>
+									<label for="reg_name" class="sr-only">Name:</label>
+									<input type="text" class="form-control" id="reg_name" placeholder="یک نام کاربری وارد کن">
+								</div>
 							</div>
-						</div>
-						
-						<div class="form-group">
-							<div>
-								<label for="reg_pwd" class="sr-only">Password:</label>
-								<input type="password" class="form-control" id="reg_pwd" placeholder="یک پسورد وارد کن">
+							
+							<div class="form-group">
+								<div>
+									<label for="reg_pwd" class="sr-only">Password:</label>
+									<input type="password" class="form-control" id="pwd" placeholder="یک پسورد وارد کن">
+								</div>
 							</div>
-						</div>
-						<div class="form-group">
-							<div>
-								<label for="reg_pwd_confirm" class="sr-only">Confirm password:</label>
-								<input type="password" class="form-control" id="reg_pwd_confirm" placeholder="پسورد را مجددا وارد کن">
+							<div class="form-group">
+								<div>
+									<label for="reg_pwd_confirm" class="sr-only">Confirm password:</label>
+									<input type="password" class="form-control" id="reg_pwd_confirm" placeholder="پسورد را مجددا وارد کن">
+								</div>
 							</div>
-						</div>
-						<div class="col-sm-offset-2 col-sm-8"><button type="submit" class="btn btn-block" "><span>ثبت کن</span></button></div>
-					</form>
-				</div>
-			</div>
-			</div>
-<<div  class="container-fluid" id="about-us" ></div>
-
-
+								<button type="submit" class="btn btn-block submitButton"><span style="color:white">ثبت کن</span></button>
+						</form>
+					</div>			
+		    </div>
+		</div>
+</div>
+</div>
+	
 	</body>
 </html>

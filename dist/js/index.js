@@ -2,7 +2,6 @@ var a=10;
 $(document).ready(function(){
 $(".navbar-brand").css({"font-size": "30px"});
 $(".navbar").css({"background-color": "#204056"});  
-
 $("#header1").click(function(){ $("#vorood").attr("class","tab-pane fade in active")});
 $("#header1").click(function(){ $("#first-tab").attr("class","active")});
 $("#header1").click(function(){ $("#second-tab").attr("class","hi")});
@@ -11,6 +10,11 @@ $("#header2").click(function(){ $("#second-tab").attr("class","active")});
 $("#header2").click(function(){ $("#first-tab").attr("class","hi")});
 $("#header2").click(function(){ $("#sabtenam").attr("class","tab-pane fade in active")});
 $("#header2").click(function(){ $("#vorood").attr("class","tab-pane fade")});
+$("#theme1").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
+$("#theme2").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
+$("#theme3").hover(function () { $(this).css({"width": "2vw"});}, function () { $(this).css({"width": "1vw"});});
+$("#theme1").click(function(){$(".navbar").css({"background-color": "black"});});
+$("#theme2").click(function(){$(".navbar").css({"background-color": "#204056"});});
 $(document).scroll(function(){
 
 var target = $("#pwd").position().top;
