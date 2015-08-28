@@ -1,5 +1,4 @@
 #leftPanelOut{
-	margin-top: 20px;
 	border-radius: 5px;
 	height: wrap-content;
 	width: 100%;
@@ -8,7 +7,8 @@
 }
 
 #leftPanelUp{
-	background-color: white;
+	color:#585858  ;
+	background-color: #CCCCCC;
 	height: wrap-content;
 	padding: 10px;
 	padding-bottom: 0px;
@@ -17,12 +17,13 @@
 #line4{
 	margin-top: 5px;
 	width: 100%;
-	background-color: #B3B3B3;
+	background-color: #CCCCCC;
 	height: 1px;
 	padding: 0px;
 }
 
 #leftPanelMid{
+	color:#585858  ;
 	background-color: white;
 	height: wrap-content;
 	padding: 10px;
@@ -68,7 +69,8 @@
 	padding-top: 10px;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-bottom: 0px;
+	padding-bottom:0px;
+	color:#585858 ;
 }
 
 #price{
@@ -97,13 +99,15 @@
 	height: wrap-content;
 	padding: 10px;
 	background-color: white;
+	color:#585858  ;
 }
 
 #line3{
 	width: 100%;
-	background-color: #B3B3B3;
+	background-color: #CCCCCC;
 	height: 1px;
 	padding: 0px;
+	margin-bottom: 10px;
 
 }
 
@@ -111,13 +115,17 @@
 	background-color: white;
 	padding-left: 10px;
 	padding-right:10px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.gly{
+	color:#87B8B4;
 }
 
 #peopleInfo{
-	padding: 0px;
+	
 }
+
 
 #acceptRequest{
 	padding: 0px;
@@ -152,7 +160,6 @@
 }
 
 #upPanelOut{
-	margin-top: 20px;
 	border-radius: 5px;
 	height: wrap-content;
 	width: 100%;
@@ -169,7 +176,9 @@
 	padding-right: 10px;
 	padding-bottom: 30px;
 }
-
+#filer{
+	
+}
 #upPanelMid{
 	width: 100%;
 	padding: 0px;
@@ -189,10 +198,11 @@
 	padding: 10px;
 	width: 100%;
 	word-break: break-word;
+
 }
 
 #line2{	
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	width: 100%;
 	border: 0px;
 	height: 1px;
@@ -236,4 +246,7 @@ body{
 }
 .navbar-brand{
 	font-size:30px;
+}
+.label{
+	background-color:#909090  ;
 }
