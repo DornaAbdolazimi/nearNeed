@@ -5,8 +5,7 @@ $(".navbar-brand").css({"font-size": "30px"});
 $(".navbar-brand").css({"color": "#ffffff"});
 $("#header1").css({"color": "#ffffff"});
 $("#header2").css({"color": "#ffffff"});
-$(".nav-button").css({"background-color": "black"});
-$(".navbar").css({"background-color": "#204056"});  
+$(".nav-button").css({"background-color": "#87B8B4"});
 $("#header1").click(function(){ $("#vorood").attr("class","tab-pane fade in active")});
 $("#header1").click(function(){ $("#first-tab").attr("class","active")});
 $("#header1").click(function(){ $("#second-tab").attr("class","hi")});
@@ -30,7 +29,7 @@ $("#theme5").click(function(){$(".nav-button").css({"background-color": "#E3695C
 $(document).scroll(function(){
 
 var target = $("#pwd").position().top;
-    if($(this).scrollTop() >target*3 && a>0)
+    if($(this).scrollTop() >50 && a>0)
     {
         
        $(".navbar").fadeTo(10, 1);
@@ -46,7 +45,7 @@ var target = $("#pwd").position().top;
             }
             
     }
-    if($(this).scrollTop() <target*3 && a<=0)
+    if($(this).scrollTop() <50 && a<=0)
     {  
         $(".navbar").fadeTo(10, 0.7);
         

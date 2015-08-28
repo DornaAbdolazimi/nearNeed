@@ -1,7 +1,7 @@
 var cw = $('.child').width();
 $('.child').css({'height':cw+'px'});
 $(document).ready(function(){
-$(".navbar-brand").css({"font-size": "20px"});
+$(".navbar-brand").css({"font-size": "50px"});
 $(".navbar-brand").css({"color": "#ffffff"});
 $(".nav-button").css({"background-color": "#87B8B4"});
 $("#header1").css({"color": "#ffffff"});

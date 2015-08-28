@@ -222,10 +222,18 @@ div{
 }
 
 body{
-   background-image: url('background.png');
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
+   background-color: #E9EAEE;
 	direction: rtl;
+}
+.navbar{
+
+	opacity: 1;
+	padding-top:1vh;
+	padding-right:10vw;
+	padding-left:10vw;
+	padding-bottom:1vh;
+
+}
+.navbar-brand{
+	font-size:30px;
 }

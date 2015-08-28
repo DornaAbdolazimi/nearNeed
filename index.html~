@@ -38,7 +38,7 @@
 		
 
 <div style="width:40px; height:35vh;">
-<div  style="width:1vw; height:15vh;"></div>
+<div  style="width:1vw; height:30vh;"></div>
 
 <div id="theme1" style="width:1vw; height:4vh; background-color:#87B8B4;"></div>
 <div  id ="theme2" style="width:1vw; height:4vh; background-color:#4CA1D8;"></div>
@@ -49,6 +49,7 @@
 </div>
 <div  class="container-fluid" id="section1" >
 <div class="col-sm-5">
+<img src="dist/css/logo.png">
 </div>
 <div class="col-sm-5">
 <br><br>
