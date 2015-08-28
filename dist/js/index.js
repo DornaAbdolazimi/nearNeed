@@ -28,8 +28,7 @@ $("#theme5").click(function(){$(".nav-button").css({"background-color": "#E3695C
 
 $(document).scroll(function(){
 
-var target = $("#pwd").position().top;
-    if($(this).scrollTop() >target*3 && a>0)
+    if($(this).scrollTop() >50 && a>0)
     {
         
        $(".navbar").fadeTo(10, 1);
@@ -45,7 +44,7 @@ var target = $("#pwd").position().top;
             }
             
     }
-    if($(this).scrollTop() <target*3 && a<=0)
+    if($(this).scrollTop() <50 && a<=0)
     {  
         $(".navbar").fadeTo(10, 0.7);
         
