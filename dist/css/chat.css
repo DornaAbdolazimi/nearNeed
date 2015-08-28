@@ -1,0 +1,22 @@
+.navbar a {
+    color: #5a5a5a;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+.navbar p{
+    color: #5a5a5a;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar p{
+    display: inline;
+}

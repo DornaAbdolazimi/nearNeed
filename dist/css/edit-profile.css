@@ -1,32 +1,54 @@
-@font-face {
-    font-family: "My Custom Font";
-    src: url(dist/font/irsans.ttf) format("truetype");
-}
-html *
-{
-   font-family: "My Custom Font";
-}
-#head-container{
-	background-image: url('background.png');
-}
-.navbar{
-	color: yellow;
-	background-color: #204056; 
-	border:0px solid #ffffff;
-	padding-top:20px;
-	padding-left:100px;
-	padding-right:100px;
-	opacity: 0.4;
-}
-.circle{
-	border-radius: 110px;
-	width: 200px;
-	height: 200px; 
-	top: 320px; 
-	left: 150px;
-/*	background-color: white;*/
-	background-image: url('background.png');
-	border: #204056 4px solid; 
-	z-index: 1;
-	position: fixed;
-}
+/*@font-face {
+	    font-family: "My Custom Font";
+	    src: url(dist/font/irsans.ttf) format("truetype");
+	}
+	html *
+	{
+	   font-family: "My Custom Font";
+	}*/
+	#head-container{
+		background-image: url('background.png');
+	}
+	.navbar{
+
+		opacity: 0.5;
+		padding-top:5vh;
+		padding-right:10vw;
+		padding-left:10vw;
+		padding-bottom:5vh;
+
+	}
+	.navbar-inverse{
+		background-color: rgb(32, 64, 86);
+	}
+	.navbar-brand{
+		font-size:30px;
+	}
+	#section2{
+		padding-top:20vh;
+		background-color: #ffffff;
+		height:90vh;	
+
+	}
+	.circle{
+		border-radius: 110px;
+		width: 200px;
+		height: 200px; 
+		top: 340px; 
+		right: 150px;
+	/*	background-color: white;*/
+		background-image: url('background.png');
+		border: #204056 4px solid; 
+		z-index: 1;
+		position: fixed;
+	}
+	.navbar.sticky{
+		font-size:4px;
+		line-height: 10px;
+		height: 10px;
+		background: #efc47D;
+		text-align: left;
+		padding-left: 10px;
+	}
+
+س
