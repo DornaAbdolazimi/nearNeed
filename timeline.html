@@ -7,7 +7,14 @@
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
 		<link type="text/css" href="dist/css/timeline.css" rel="stylesheet">
-		
+
+		<!-- In <head> -->
+		<link type="text/css" href="dist/nouislider/nouislider.css" rel="stylesheet">
+
+		<!-- In <body> -->
+		<script src="dist/nouislider/nouislider.min.js"></script>
+        <script src="dist/wnumb-1.0.0/wNumb.js"></script>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="jquery-1.11.3.min.js"></script>
@@ -49,7 +56,17 @@
 			<div class="col-sm-12 col-sm-8 col-sm-push-4"> <!-- up and right panels -->
 					<div class="col-xs-12" id="upPanelOut"> <!-- up panel -->
 						<div class="col-xs-12" id="upPanelUp">
-							<b><i class="fa fa-cog fa-spin"></i> پست</b>
+							<div class="col-xs-2" style="padding: 0px;">
+								<div class="button-group">
+									<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton" data-toggle="dropdown">select category&nbsp;<span class="caret"></span></button>
+									<ul class="dropdown-menu">
+										<li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp; movie</a></li>
+										<li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;book</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-10"> <b><i class="fa fa-cog fa-spin"></i> پست</b>
+								</div>
 						</div>
 						<div class="col-xs-12" id="upPanelMid">
 						<div id="line1"></div>
@@ -65,26 +82,32 @@
 									<div id="subbmitB" class="nav-button">ثبت</div>								
 								</a></center>
 							</div>
+							<div class="col-xs-9" >
+								<div id="nonlinear"> </div><center style="direction: ltr">
+								<div class="priceValue" id="slider-snap-value-lower" ></div>T&nbsp;-&nbsp;
+								<div class="priceValue" id="slider-snap-value-upper" ></div>T</center>
+							</div>
+							<div class="col-xs-1" style="color:grey">
+								قیمت:
+							</div>
 						</div>
 	
-														
+
 					</div> <!-- end of up panel -->
-					<div class="col-xs-12" style="margin-top:30px;">
-						<div class="col-xs-12 " id="filter">
-							<b>میخواهی کدام درسته از نیازها نمایش داده شود؟ </b> 
-							 <span class="dropdown col-xs-2" style="padding-right:0px;">
-								<button style="height:22px; width:118px;  padding:0px; margin:px background-color:#87B8B4; 	border-width:0px; " class="btn btn-primary dropdown-toggle nav-button" type="button" data-toggle="dropdown">انتخاب
-								  <span class="caret"></span></button>
-								  <ul class="dropdown-menu">
-								    <li></li>
-								    <li> <div style= "padding-up:5px; padding-right:5px; padding-down:2px padding-left:5px;"align="right"><input type="checkbox" name="t1" value="book"> کتاب</div></li>
-								    <li> <div style="padding-up:2px; padding-right:5px; padding-down:2px padding-left:5px;" align="right"><input type="checkbox" name="t2" value="lesson">درس و مشق</div></li>
-								    <li> <div style="padding-up:2px; padding-right:5px; padding-down:2px padding-left:5px;" align="right"><input type="checkbox" name="t3" value="learning">أموزش </div></li>
-  							       <li> <div style="padding-up:2px; padding-right:5px; padding-down:2px padding-left:5px;" align="right"><input type="checkbox" name="t3" value="computer"> کامپیوتر</div></li>	
-  							      <li> <div style="padding-up:2px; padding-right:5px; padding-down:5px padding-left:5px;" align="right"><input type="checkbox" name="t3" value="other">دیگر</div></li>								    							    
-								  </ul>
-							</span>
+
+					<div class="col-xs-12" id="selectCategoryPanel">
+						<div class="col-xs-2" id="categoriesSelectCategory" style="padding: 3px">
+							<div class="button-group">
+								<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton" data-toggle="dropdown">select&nbsp;<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+									<li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp; movie</a></li>
+									<li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;book</a></li>
+								</ul>
+							</div>
 						</div>
+						<div class="col-xs-10"><b>
+							می خواهی کدام دسته از نیاز ها برایت نمایش داده شوند؟
+						</b></div>
 					</div>
 					
 					<!-- start of right panel -->
