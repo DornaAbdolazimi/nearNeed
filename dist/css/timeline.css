@@ -1,3 +1,11 @@
+#myPrice{
+	height: 20px;
+	padding-left: 0px;
+	direction: ltr;
+	border-radius: 3px;
+	color: white;
+}
+
 #leftPanelOut{
 	border-radius: 5px;
 	height: wrap-content;
@@ -11,7 +19,6 @@
 	background-color: #CCCCCC;
 	height: wrap-content;
 	padding: 10px;
-	padding-bottom: 0px;
 }
 
 #line4{
@@ -240,6 +247,7 @@ div{
 body{
    background-color: #E9EAEE;
 	direction: rtl;
+	padding-bottom: 10px;
 }
 .navbar{
 
