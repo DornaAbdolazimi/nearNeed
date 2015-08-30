@@ -81,7 +81,6 @@
 
 #rightPanelOut{
 	border-radius: 5px;
-	height: wrap-content;
 	width: 100%;
 	border: 0px solid gray;
 	padding: 0px;
@@ -91,7 +90,6 @@
 #rightPanelUp{
 	background-color: white;
 	width: 100%;
-	height: wrap-content;
 	padding-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -108,8 +106,17 @@
 	width: 80%;
 }
 
-.nameRequest{
+.titleRequest{
 	margin: 0px;
+}
+
+.nameRequest{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	color: #7A7A7A;
+	display: inline;
 }
 
 .dateRequest{
@@ -118,6 +125,7 @@
 	margin-bottom: 0px;
 	margin-top: 5px;
 	color: #7A7A7A;
+	display: inline;
 }
 
 #selectCategoryPanel{
@@ -139,7 +147,6 @@
 
 #rightPanelMid{
 	width: 100%;
-	height: wrap-content;
 	padding: 10px;
 	background-color: white;
 	color:#585858  ;
@@ -204,7 +211,6 @@
 
 #upPanelOut{
 	border-radius: 5px;
-	height: wrap-content;
 	width: 100%;
 	border: 0px solid gray;
 	padding: 0px;
@@ -240,17 +246,36 @@
 	padding: 0px;
 }
 
+#titlePlace{
+	border: 0px;
+	resize: none;
+	margin:0px;
+	padding: 10px;
+	padding-bottom: 0px;
+	padding-top: 5px;
+	width: 100%;
+	word-break: break-word;
+}
+
 #problemPlace{
 	border: 0px;
 	resize: none;
 	margin:0px;
 	padding: 10px;
+	padding-top: 0px;
 	width: 100%;
 	word-break: break-word;
-
 }
 
-#line2{	
+#linehalf{
+	height: 1px;
+	background-color: #CCCCCC;
+	width: 100%;
+	border-style: none;
+	padding: 0px;
+}
+
+#line2{
 	margin-bottom: 5px;
 	width: 100%;
 	border: 0px;
