@@ -21,4 +21,5 @@ $("#theme3").click(function(){$(".gly").css({"color": "#FFB745"});});
 $("#theme4").click(function(){$(".nav-button").css({"background-color": "#806BAE"});});
 $("#theme4").click(function(){$(".gly").css({"color": "#806BAE"});});
 $("#theme5").click(function(){$(".nav-button").css({"background-color": "#E3695C"});});
+$("#theme5").click(function(){$(".gly").css({"color": "#E3695C"});});
 });

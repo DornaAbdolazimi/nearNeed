@@ -97,7 +97,7 @@
 						<div class="col-xs-12 " id="filter">
 							<b>میخواهی کدام درسته از نیازها نمایش داده شود؟ </b> 
 							 <span class="dropdown col-xs-2" style="padding-right:0px;">
-								<button style="height:22px; width:118px;  padding:0px; margin:px background-color:#87B8B4; 	border-width:0px; " class="btn btn-primary dropdown-toggle nav-button" type="button" data-toggle="dropdown">قیمت
+								<button style="height:22px; width:118px;  padding:0px; margin:px background-color:#87B8B4; 	border-width:0px; " class="btn btn-primary dropdown-toggle nav-button" type="button" data-toggle="dropdown">انتخاب
 								  <span class="caret"></span></button>
 								  <ul class="dropdown-menu">
 								    <li></li>
@@ -164,6 +164,7 @@
 					 <div class="col-xs-12 col-sm-4 col-sm-pull-8">
 					 	<div class="col-xs-12" id="leftPanelOut">
 					 		<div class="col-xs-12" id="leftPanelUp">
+					 			<div class = "col-xs-3" id="myPrice"><span class="label label-default" >قیمت: ۱۰۰۰</span></div>
 					 			do my homeWork plz
 					 			
 					 		</div>
