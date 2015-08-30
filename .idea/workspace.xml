@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a48c87-fce5-4a72-8669-2a507a7a9031" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/font/IrSans.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/font/IrSans.woff" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/font/irsans.ttf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/nouislider/nouislider.css" afterPath="$PROJECT_DIR$/dist/nouislider/nouislider.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/nouislider/nouislider.js" afterPath="$PROJECT_DIR$/dist/nouislider/nouislider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/nouislider/nouislider.min.css" afterPath="$PROJECT_DIR$/dist/nouislider/nouislider.min.css" />
@@ -32,8 +35,8 @@
       <file leaf-file-name="timeline.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/timeline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33150685">
-              <caret line="190" column="75" selection-start-line="190" selection-start-column="65" selection-end-line="190" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.5505952">
+              <caret line="72" column="109" selection-start-line="72" selection-start-column="109" selection-end-line="72" selection-end-column="109" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,8 +67,8 @@
       <file leaf-file-name="timeline.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/css/timeline.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.580646">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.67742">
+              <caret line="356" column="16" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -97,8 +100,8 @@
         <option value="$PROJECT_DIR$/dist/nouislider/nouislider.pips.css" />
         <option value="$PROJECT_DIR$/dist/nouislider/nouislider.css" />
         <option value="$PROJECT_DIR$/dist/js/timeline.js" />
-        <option value="$PROJECT_DIR$/timeline.html" />
         <option value="$PROJECT_DIR$/dist/css/timeline.css" />
+        <option value="$PROJECT_DIR$/timeline.html" />
       </list>
     </option>
   </component>
@@ -206,7 +209,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="font" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,7 +309,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440938097155</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change timeline's css for easing color changes">
+      <created>1440939769618</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1440939769618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,7 +360,8 @@
     <MESSAGE value="add price range and also category button" />
     <MESSAGE value="add ban button and enhance close button" />
     <MESSAGE value="add title to posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add title to posts" />
+    <MESSAGE value="change timeline's css for easing color changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="change timeline's css for easing color changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -678,16 +688,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/timeline.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.580646">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.67742">
+          <caret line="356" column="16" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/timeline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33150685">
-          <caret line="190" column="75" selection-start-line="190" selection-start-column="65" selection-end-line="190" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.5505952">
+          <caret line="72" column="109" selection-start-line="72" selection-start-column="109" selection-end-line="72" selection-end-column="109" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

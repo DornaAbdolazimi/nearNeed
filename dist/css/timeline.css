@@ -1,3 +1,4 @@
+
 #closeMarkPanel{
 	height: 10px;
 }
@@ -348,4 +349,16 @@ body{
 }
 .label{
 	background-color:#909090  ;
+}
+
+@font-face {
+    font-family: 'IrSans';
+    src: url('../font/IrSans.woff') format('woff'),
+    url('../font/IrSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'IrSans', 'Helvetica Neue', 'Helvetica';
 }
