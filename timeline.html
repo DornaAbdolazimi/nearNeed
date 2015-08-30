@@ -113,7 +113,14 @@
 					<!-- start of right panel -->
 					<div class="col-xs-12" id="rightPanelOut">
 						<div class="col-xs-12" id="rightPanelUp">
-							<div class="col-xs-2" id="price">
+							<div class="col-xs-12" id = "closeMarkPanel" style="padding:3px">
+								<div class="col-xs-1" style="margin: 0px; padding: 0px; direction: ltr;">
+									<a class = "grey" href="#"> <div id="closeMark">
+										<span class="glyphicon glyphicon-remove-circle" style="color:darkred;"></span>
+									</div> </a>
+								</div>
+							</div>
+							<div class="col-xs-2" id="price" style="padding-top: 10px;">
 								<span class="label label-default" >قیمت: ۱۰۰۰</span>
 							</div>
 							<div class="col-xs-9">
@@ -132,27 +139,14 @@
 						<div class="col-xs-12" id="rightPanelDown">
 							<div id="line3"></div>	
 							<div class="col-xs-1" id="showAnswersRequest">
-								<a class="grey" href="#" data-toggle="collapse" data-target="#peopleInfo"><div id="showAllAnswersDivRequest">
-									<span class="glyphicon glyphicon-chevron-down gly"></span> show
+								<a class="grey" href="#"><div id="reportButtonRequest">
+									<span class="glyphicon glyphicon-ban-circle gly"></span>	report
 								</div></a>
 							</div>
-							<div class="col-xs-offset-9 col-xs-1" id="acceptRequest">
+							<div class="col-xs-offset-10 col-xs-1" id="acceptRequest">
 								<a class="grey" href="#"><div id="acceptButtonRequest">
 									<span class="glyphicon glyphicon-plus gly"></span>	accept						
 								</div></a>							
-							</div>
-							
-							<div class="col-xs-1" id="rejectRequest">
-								<a class="grey" href="#"><div id="rejectButtonRequest">
-									<span class="glyphicon glyphicon-minus gly"></span>		reject						
-								</div></a>							
-							</div>
-							
-							<div class="col-xs-11 collapse well" id="peopleInfo" style="margin:30px;">
-								<ul >
-								<li>محمد پیشنهاد داد</li>
-								<li> حسین پیشنهاد داد </li>
-								</ul>							
 							</div>
 							</div>
 						</div>

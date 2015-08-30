@@ -1,3 +1,11 @@
+#closeMarkPanel{
+	height: 10px;
+}
+
+#reportButtonRequest{
+
+}
+
 .priceValue{
 	display: inline;
 	font-weight: 500;
@@ -13,6 +21,7 @@
 
 #myPrice{
 	height: 20px;
+
 	padding-left: 0px;
 	direction: ltr;
 	border-radius: 3px;
@@ -43,7 +52,6 @@
 #leftPanelMid{
 	color:#585858  ;
 	background-color: white;
-	height: wrap-content;
 	padding: 10px;
 	
 }
@@ -84,7 +92,7 @@
 	background-color: white;
 	width: 100%;
 	height: wrap-content;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom:0px;
