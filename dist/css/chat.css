@@ -20,7 +20,14 @@
 /*.navbar p{*/
     /*display: inline;*/
 /*}*/
+body{
+	direction: rtl;
+    background-image: url("../../People-Wallpapers.jpg");
+    background-position: center center;
 
+    background-attachment: fixed;
+	padding-bottom: 10px;
+}
 .navbar{
 
 	opacity: 1;
@@ -33,6 +40,23 @@
 .navbar-brand{
 	font-size:30px;
 }
+
+#leftPanel{
+	border-radius: 3px;
+	width: 100%;
+	/*border: 1px solid #3FB8AF;*/
+	padding: 0px;
+}
+#leftpaneltilechat{
+    padding: 0px;
+}
+#leftPanelTitle{
+    margin-top: 0px;
+    padding: 10px;
+    color: #c69644;
+    background-color: rgba(204, 204, 204, 0.5);
+}
+
 
 .inner-addon {
     position: relative;

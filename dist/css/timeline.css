@@ -80,12 +80,7 @@
 	color: white;
 }
 
-#leftPanelOut{
-	border-radius: 3px;
-	width: 100%;
-	/*border: 1px solid #3FB8AF;*/
-	padding: 0px;
-}
+leftPanelTitlePanel
 
 #leftPanelUp{
 	/*color:#585858  ;*/
