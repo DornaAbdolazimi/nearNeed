@@ -58,7 +58,9 @@
 						<div class="col-xs-12 glyTitle borderup" id="upPanelUp">
 							<div class="col-xs-2" style="padding: 0px;">
 								<div class="button-group">
-									<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton gly2" data-toggle="dropdown">select category&nbsp;<span class="caret"></span></button>
+									<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton gly2" data-toggle="dropdown">
+										انتخاب موضوع
+										&nbsp;<span class="caret"></span></button>
 									<ul class="dropdown-menu">
 										<li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp; movie</a></li>
 										<li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;book</a></li>
@@ -82,16 +84,16 @@
 						<div class="col-xs-12 borderBottom" id="upPanelDown">
 						    <div id="line2"></div>
                             <div class="col-xs-2" style="padding:3px">
-                                <center><a href="#" style="color:white">
+                                <a href="#" style="color:white; text-align: center;">
                                     <div id="subbmitB" class="nav-button">ثبت</div>
-                                </a></center>
+                                </a>
                             </div>
 							<div class="col-xs-9" >
-								<div id="nonlinear"> </div><center style="direction: ltr">
-								<div id="fontPrice">
+								<div id="nonlinear"> </div>
+								<div id="fontPrice" style="text-align: center; direction: ltr;">
 								    <div class="col-xs-6 priceValue" id="slider-snap-value-lower" style="direction: ltr;"></div>
 								    <div class="col-xs-6 priceValue" id="slider-snap-value-upper" style="direction: ltr;"></div>
-						        </div></center>
+						        </div>
 							</div>
 							<div class="col-xs-1" style="color:grey;">
 								قیمت:
@@ -104,7 +106,9 @@
 					<div class="col-xs-12 glyTitle borderColor" id="selectCategoryPanel">
 						<div class="col-xs-2" id="categoriesSelectCategory" style="padding: 3px">
 							<div class="button-group">
-								<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton gly2" data-toggle="dropdown">select&nbsp;<span class="caret"></span></button>
+								<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton gly2" data-toggle="dropdown">
+									انتخاب موضوع
+									&nbsp;<span class="caret"></span></button>
 								<ul class="dropdown-menu">
 									<li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp; movie</a></li>
 									<li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;book</a></li>
@@ -122,14 +126,19 @@
 							<div class="col-xs-12" id = "closeMarkPanel" style="padding:3px">
 								<div class="col-xs-1" style="margin: 0px; padding: 0px; direction: ltr;">
 									<a class = "grey" href="#"> <div id="closeMark">
-										<span class="glyphicon glyphicon-remove-circle" style="color:darkred;"></span>
+										<span class="glyphicon glyphicon-remove-circle redButtons" ></span>
 									</div> </a>
 								</div>
 							</div>
-							<div class="col-xs-2" id="price" style="padding-top: 10px;">
-								<span class="label label-default" >قیمت: ۱۰۰۰</span>
+							<div class="col-xs-3 pricePanel" style="padding-top: 10px;">
+								<!--<span class="label label-default" >قیمت: ۱۰۰۰</span>-->
+								<div class="price">
+
+									از ۱۰۰۰ تومان تا ۵۰۰۰ تومان
+
+								</div>
 							</div>
-							<div class="col-xs-9">
+							<div class="col-xs-8">
 							<h3 class="titleRequest">
 								نمونه عنوان
 								</h3>
@@ -140,7 +149,7 @@
 								</h6>
 							</div>
 							<div class="col-xs-1" style="padding:0px; padding-right:10px">
-								<img src="dist/img/mePic.jpg" alt="can not show" class="peoplePic">
+								<img src="dist/img/mePic.jpg" alt="can not show" class="img-circle peoplePic" style="border: 1px solid darkgray;">
 							</div>
 						</div>
 						<div class="col-xs-11 glyBody" id="rightPanelMid">
@@ -152,12 +161,14 @@
 							<div id="line3"></div>	
 							<div class="col-xs-6" id="showAnswersRequest" style="direction: ltr;">
 								<a class="grey" href="#"><div id="reportButtonRequest">
-									<span class="glyphicon glyphicon-ban-circle gly"></span>	report
+									<span class="glyphicon glyphicon-ban-circle redButtons"></span>
+									گزارش تخلف
 								</div></a>
 							</div>
 							<div class="col-xs-6" id="acceptRequest" style="direction: rtl;">
-								<a class="grey" href="#"><div id="acceptButtonRequest">
-									<span class="glyphicon glyphicon-plus gly"></span>	accept						
+								<a class= "grey" href="#"><div id="acceptButtonRequest">
+									<span class="glyphicon glyphicon-ok gly"></span>
+									قبول این درخواست
 								</div></a>							
 							</div>
 							</div>
@@ -169,8 +180,14 @@
 					 <div class="col-xs-12 col-sm-4 col-sm-pull-8">
 					 	<div class="col-xs-12 borderColor" id="leftPanelOut">
 					 		<div class="col-xs-12 glyTitle borderUp" id="leftPanelUp">
-					 			<div class = "col-xs-3" id="myPrice"><span class="label label-default" >قیمت: ۲۰۰۰</span></div>
+					 			<div class = "col-xs-6 pricePanel" style="padding: 0px">
+									<div class="price">
+										قیمت از ۲۰۰۰ تا ۴۰۰۰
+									</div>
+								</div>
+								<div class="col-xs-6" style="padding: 0px">
 					 			do my homeWork plz
+								</div>
 					 			
 					 		</div>
 					 		
@@ -181,12 +198,12 @@
 					 		<div class="answersToMe">
 					 		<div class="col-xs-2 checkForGood">   <button style = "height:20px; padding-top:0px;  border-width:0px;" type="button" class="btn btn-primary btn-sm nav-button">شروع چت</button></div>
 					 		<div class="col-xs-9 answersFromPeople" >alim responded</div>
-					 		<div class="col-xs-1 respondPicPanel"><img src="dist/img/mePic.jpg" alt="no pic" class="respondPic"></div>
+					 		<div class="col-xs-1 respondPicPanel"><img src="dist/img/mePic.jpg" alt="no pic" class="img-circle respondPic"></div>
 					 		</div>
 					 		<div class="answersToMe">
 					 		<div class="col-xs-2 checkForGood">  <button style = "height:20px; padding-top:0px;  border-width:0px;" type="button" class="btn btn-primary btn-sm nav-button ">شروع چت</button> </div>
 					 		<div class="col-xs-9 answersFromPeople" >alim responded</div>
-					 		<div class="col-xs-1 respondPicPanel"><img src="dist/img/mePic.jpg" alt="no pic" class="respondPic"></div>
+					 		<div class="col-xs-1 respondPicPanel"><img src="dist/img/mePic.jpg" alt="no pic" class="img-circle respondPic"></div>
 					 		</div>
 					 		</div>
 					 		<!-- -->

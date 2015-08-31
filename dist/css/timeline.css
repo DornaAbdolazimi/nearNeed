@@ -1,5 +1,35 @@
+body{
+	/*background-color: whitesmoke;*/
+	direction: rtl;
+	background-image: url("../../People-Wallpapers.jpg");
+	background-position: center center;
+
+	background-attachment: fixed;
+	padding-bottom: 10px;
+}
+
+.price{
+	direction: rtl;
+	padding: 5px;
+	font-size: x-small;
+	color: whitesmoke;
+	text-align: center;
+	background-color: #c69644;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.pricePanel{
+	padding: 10px;
+	direction: ltr;
+}
+
+.redButtons{
+	color: #c69644;
+}
+
 .borderColor{
-    border: 2px solid #52eadb;
+    border: 2px solid #31a08d;
 	border-radius: 5px;
 }
 
@@ -20,6 +50,8 @@
 #reportButtonRequest{
 
 }
+
+
 
 .priceValue{
 	display: inline;
@@ -95,6 +127,7 @@
 
 .respondPic{
 	width: 80%;
+	border: 1px solid darkgray;
 }
 
 .answersToMe{
@@ -119,10 +152,7 @@
 	/*color:#585858 ;*/
 }
 
-#price{
-	color: #7A7A7A;
-	direction: ltr;
-}
+
 
 .peoplePic{
 	width: 80%;
@@ -352,15 +382,7 @@ div{
 	padding: 0px;
 }
 
-body{
-   /*background-color: whitesmoke;*/
-	direction: rtl;
-    background-image: url("../../People-Wallpapers.jpg");
-    background-position: center center;
 
-    background-attachment: fixed;
-	padding-bottom: 10px;
-}
 .navbar{
 
 	opacity: 1;
