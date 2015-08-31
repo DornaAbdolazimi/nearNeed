@@ -1,7 +1,36 @@
+.gly{
+	color: #34b3a0;
+}
+
+.gly2{
+	color: #ffffff;
+	background-color: #34b3a0;
+}
+
+.glyTitle{
+	color: #000000;
+	background-color: rgba(204, 204, 204, 0.3);
+}
+
+.glyTitle2{
+	color:#585858 ;
+	background-color: white;
+;
+}
+
+.glyBody{
+	background-color: white;
+	color:#585858  ;
+}
+
+.glyFooter{
+	background-color: white;
+}
+
 body{
 	/*background-color: whitesmoke;*/
 	direction: rtl;
-	background-image: url("../../People-Wallpapers.jpg");
+	background-image: url("../../People-Wallpapers-4.jpg");
 	background-position: center center;
 
 	background-attachment: fixed;
@@ -14,7 +43,7 @@ body{
 	font-size: x-small;
 	color: whitesmoke;
 	text-align: center;
-	background-color: #c69644;
+	background-color: #f34144;
 	width: 100%;
 	border-radius: 5px;
 }
@@ -25,7 +54,7 @@ body{
 }
 
 .redButtons{
-	color: #c69644;
+	color: #f34144;
 }
 
 .borderColor{
@@ -220,34 +249,7 @@ body{
 	padding-top: 0px;
 	padding-bottom: 10px;
 }
-.gly{
-	color: #34b3a0;
-}
 
-.gly2{
-    color: #ffffff;
-	background-color: #34b3a0;
-}
-
-.glyTitle{
-    color: #000000;
-    background-color: rgba(204, 204, 204, 0.3);
-}
-
-.glyTitle2{
-    color:#585858 ;
-    background-color: white;
-;
-}
-
-.glyBody{
-    background-color: white;
-    color:#585858  ;
-}
-
-.glyFooter{
-    background-color: white;
-}
 
 #peopleInfo{
 	
