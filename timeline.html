@@ -54,8 +54,8 @@
 		<div class="container">
 			<div class="row">
 			<div class="col-sm-12 col-sm-8 col-sm-push-4"> <!-- up and right panels -->
-					<div class="col-xs-12" id="upPanelOut"> <!-- up panel -->
-						<div class="col-xs-12 glyTitle" id="upPanelUp">
+					<div class="col-xs-12 borderColor" id="upPanelOut"> <!-- up panel -->
+						<div class="col-xs-12 glyTitle borderup" id="upPanelUp">
 							<div class="col-xs-2" style="padding: 0px;">
 								<div class="button-group">
 									<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton gly2" data-toggle="dropdown">select category&nbsp;<span class="caret"></span></button>
@@ -79,19 +79,21 @@
 						</div>
 	
 						</div>
-						<div class="col-xs-12" id="upPanelDown">
-						<div id="line2"></div>
-							<div class="col-xs-2" style="padding:3px">
-								<center><a href="#" style="color:white">
-									<div id="subbmitB" class="nav-button">ثبت</div>								
-								</a></center>
-							</div>
+						<div class="col-xs-12 borderBottom" id="upPanelDown">
+						    <div id="line2"></div>
+                            <div class="col-xs-2" style="padding:3px">
+                                <center><a href="#" style="color:white">
+                                    <div id="subbmitB" class="nav-button">ثبت</div>
+                                </a></center>
+                            </div>
 							<div class="col-xs-9" >
 								<div id="nonlinear"> </div><center style="direction: ltr">
-								<div class="priceValue" id="slider-snap-value-lower" ></div>T&nbsp;-&nbsp;
-								<div class="priceValue" id="slider-snap-value-upper" ></div>T</center>
+								<div id="fontPrice">
+								    <div class="col-xs-6 priceValue" id="slider-snap-value-lower" style="direction: ltr;"></div>
+								    <div class="col-xs-6 priceValue" id="slider-snap-value-upper" style="direction: ltr;"></div>
+						        </div></center>
 							</div>
-							<div class="col-xs-1" style="color:grey">
+							<div class="col-xs-1" style="color:grey;">
 								قیمت:
 							</div>
 						</div>
@@ -99,7 +101,7 @@
 
 					</div> <!-- end of up panel -->
 
-					<div class="col-xs-12 glyTitle" id="selectCategoryPanel">
+					<div class="col-xs-12 glyTitle borderColor" id="selectCategoryPanel">
 						<div class="col-xs-2" id="categoriesSelectCategory" style="padding: 3px">
 							<div class="button-group">
 								<button type="button" class="btn btn-default btn-sm dropdown-toggle categoryButton gly2" data-toggle="dropdown">select&nbsp;<span class="caret"></span></button>
@@ -115,8 +117,8 @@
 					</div>
 					
 					<!-- start of right panel -->
-					<div class="col-xs-12" id="rightPanelOut">
-						<div class="col-xs-12 glyTitle2" id="rightPanelUp">
+					<div class="col-xs-12 borderColor" id="rightPanelOut">
+						<div class="col-xs-12 glyTitle2 borderUp" id="rightPanelUp">
 							<div class="col-xs-12" id = "closeMarkPanel" style="padding:3px">
 								<div class="col-xs-1" style="margin: 0px; padding: 0px; direction: ltr;">
 									<a class = "grey" href="#"> <div id="closeMark">
@@ -146,14 +148,14 @@
 	
 						</div>
 						
-						<div class="col-xs-12 glyFooter" id="rightPanelDown">
+						<div class="col-xs-12 glyFooter borderbottom" id="rightPanelDown">
 							<div id="line3"></div>	
-							<div class="col-xs-1" id="showAnswersRequest">
+							<div class="col-xs-6" id="showAnswersRequest" style="direction: ltr;">
 								<a class="grey" href="#"><div id="reportButtonRequest">
 									<span class="glyphicon glyphicon-ban-circle gly"></span>	report
 								</div></a>
 							</div>
-							<div class="col-xs-offset-10 col-xs-1" id="acceptRequest">
+							<div class="col-xs-6" id="acceptRequest" style="direction: rtl;">
 								<a class="grey" href="#"><div id="acceptButtonRequest">
 									<span class="glyphicon glyphicon-plus gly"></span>	accept						
 								</div></a>							
@@ -165,14 +167,14 @@
 					
 					<!-- left panel -->
 					 <div class="col-xs-12 col-sm-4 col-sm-pull-8">
-					 	<div class="col-xs-12" id="leftPanelOut">
-					 		<div class="col-xs-12 glyTitle" id="leftPanelUp">
+					 	<div class="col-xs-12 borderColor" id="leftPanelOut">
+					 		<div class="col-xs-12 glyTitle borderUp" id="leftPanelUp">
 					 			<div class = "col-xs-3" id="myPrice"><span class="label label-default" >قیمت: ۲۰۰۰</span></div>
 					 			do my homeWork plz
 					 			
 					 		</div>
 					 		
-					 		<div class="col-xs-12 glyBody" id="leftPanelMid">
+					 		<div class="col-xs-12 glyBody borderBottom" id="leftPanelMid">
 					 			ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
 					 			
 					 		<div id="line4"></div>
@@ -187,10 +189,10 @@
 					 		<div class="col-xs-1 respondPicPanel"><img src="dist/img/mePic.jpg" alt="no pic" class="respondPic"></div>
 					 		</div>
 					 		</div>
-					 		
-					 		<div class="col-xs-12 glyFooter" id="leftPanelDown">
-					 			
-					 		</div>
+					 		<!-- -->
+					 		<!--<div class="col-xs-12 glyFooter borderBottom" id="leftPanelDown">-->
+
+					 		<!--</div>-->
 					 	</div>
 					 </div>
 					

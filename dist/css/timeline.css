@@ -1,3 +1,17 @@
+.borderColor{
+    border: 2px solid #52eadb;
+	border-radius: 5px;
+}
+
+.borderUp{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.borderBottom{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
 #closeMarkPanel{
 	height: 10px;
@@ -9,8 +23,12 @@
 
 .priceValue{
 	display: inline;
-	font-weight: 500;
-	color: red;
+}
+
+#fontPrice{
+    font-size: x-small;
+    color: #6c6c6c;
+    padding-top: 5px;
 }
 
 #nonlinear{
@@ -26,19 +44,21 @@
 	padding-left: 0px;
 	direction: ltr;
 	border-radius: 3px;
+
 	color: white;
 }
 
 #leftPanelOut{
-	border-radius: 5px;
+	border-radius: 3px;
 	width: 100%;
-	border: 0px solid gray;
+	/*border: 1px solid #3FB8AF;*/
 	padding: 0px;
 }
 
 #leftPanelUp{
 	/*color:#585858  ;*/
 	/*background-color: #CCCCCC;*/
+
 	padding: 10px;
 }
 
@@ -54,7 +74,9 @@
 	/*color:#585858  ;*/
 	/*background-color: white;*/
 	padding: 10px;
-	
+    /*border-bottom-left-radius: 3px;*/
+    /*border-bottom-right-radius: 3px;*/
+
 }
 
 .checkForGood{
@@ -83,7 +105,6 @@
 #rightPanelOut{
 	border-radius: 5px;
 	width: 100%;
-	border: 0px solid gray;
 	padding: 0px;
 	margin-top: 30px;
 }
@@ -170,16 +191,17 @@
 	padding-bottom: 10px;
 }
 .gly{
-	color:#87B8B4;
+	color: #34b3a0;
 }
 
 .gly2{
-	background-color: #87B8B4 ;
+    color: #ffffff;
+	background-color: #34b3a0;
 }
 
 .glyTitle{
-    color:#585858 ;
-    background-color: #CCCCCC;
+    color: #000000;
+    background-color: rgba(204, 204, 204, 0.3);
 }
 
 .glyTitle2{
@@ -235,9 +257,9 @@
 }
 
 #upPanelOut{
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 	width: 100%;
-	border: 0px solid gray;
+	/*border: 0px solid gray;*/
 	padding: 0px;
 }
 
@@ -331,8 +353,12 @@ div{
 }
 
 body{
-   background-color: #E9EAEE;
+   /*background-color: whitesmoke;*/
 	direction: rtl;
+    background-image: url("../../People-Wallpapers.jpg");
+    background-position: center center;
+
+    background-attachment: fixed;
 	padding-bottom: 10px;
 }
 .navbar{
