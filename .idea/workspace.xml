@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a48c87-fce5-4a72-8669-2a507a7a9031" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/good-friends.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/nouislider/nouislider.css" afterPath="$PROJECT_DIR$/dist/nouislider/nouislider.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/nouislider/nouislider.js" afterPath="$PROJECT_DIR$/dist/nouislider/nouislider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/nouislider/nouislider.min.css" afterPath="$PROJECT_DIR$/dist/nouislider/nouislider.min.css" />
@@ -68,8 +67,8 @@
       <file leaf-file-name="timeline.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/css/timeline.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19449225">
-              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.9483649">
+              <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="382" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -268,7 +267,19 @@
       <option name="project" value="LOCAL" />
       <updated>1441012821461</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2 theme">
+      <created>1441013018696</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1441013018696</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2 theme">
+      <created>1441013034514</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1441013034514</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -307,7 +318,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 theme&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 theme&#10;" />
+    <MESSAGE value="2 theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 theme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -686,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/timeline.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19449225">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.9483649">
+          <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="382" selection-end-column="1" />
           <folding />
         </state>
       </provider>
